@@ -73,7 +73,7 @@
 
       </Stylesheet>
 
-      <CodeBeside Type="Sitecore.Shell.Applications.Layouts.DeviceEditor.DeviceEditorForm,Sitecore.Client"/>
+      <CodeBeside Type="Sitecore.Support.Shell.Applications.Layouts.DeviceEditor.DeviceEditorForm,Sitecore.Support.96730"/>
       <DataContext ID="LayoutDataContext" DataViewName="Master" Root="{75CC5CE4-8979-4008-9D3C-806477D57619}" Filter="Contains('{A87A00B1-E6DB-45AB-8B54-636FEC3B5523},{1163DA83-B2EF-4381-BF09-B2FF714B1B3F},{3A45A723-64EE-4919-9D41-02FD40FD1466},{A87A00B1-E6DB-45AB-8B54-636FEC3B5523},{239F9CF4-E5A0-44E0-B342-0F32CD4C6D8B},{93227C5D-4FEF-474D-94C0-F252EC8E8219}', @@templateid)"/>
 
       <VerticalTabstrip>

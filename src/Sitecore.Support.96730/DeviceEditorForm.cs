@@ -28,7 +28,6 @@
   using System.Web.UI.HtmlControls;
   using System.Xml.Linq;
 
-
   /// <summary>
   /// Represents the Device Editor form.
   /// </summary>
@@ -978,7 +977,7 @@
               xmlControl["ID"] = uniqueID;
               xmlControl["Icon"] = item.Appearance.Icon;
               xmlControl["Header"] = item.GetUIDisplayName();
-              xmlControl["Placeholder"] = WebUtil.SafeEncode(item2.Placeholder);
+              xmlControl["Placeholder"] = (item2.Placeholder != null) ? WebUtil.SafeEncode(item2.Placeholder) : string.Empty; 
             }
             else
             {
